@@ -1,9 +1,7 @@
 # research_task
 
 
-#DB1.json
-
-This JSON-LD file describes a structured dataset using the JSON format, which is designed to represent data in a way that can be easily linked to other data on the web. Here's a detailed breakdown of the file:
+# DB1.json
 
 ### 1. **@context**
 The `@context` section defines the prefixes used in the dataset, which help in abbreviating long URIs. These prefixes map to namespaces, enabling a more readable representation of data.
@@ -72,7 +70,7 @@ The structure of this file allows it to be integrated with other Linked Data on 
 If you encounter issues with this data in your application, they might stem from inconsistencies in the structure (e.g., unexpected data types or missing relationships). Ensuring the data aligns with the expected ontology structure is crucial for seamless integration.
 
 
-#DB2.json
+# DB2.json
 
 This JSON-LD (JavaScript Object Notation for Linked Data) file defines a graph-based representation of materials, manufacturing processes, properties, and parameters, and how they are related. It uses the EMMO (European Materials Modelling Ontology) as its underlying ontology. Below is a detailed breakdown of each section:
 
@@ -130,7 +128,7 @@ The `@graph` section contains the core data, represented as a collection of inte
 This JSON-LD file models a complex relationship between materials, manufacturing processes, and their properties using the EMMO ontology. Each material is linked to its relevant properties and manufacturing stages, reflecting a structured and interconnected dataset. The usage of EMMO ensures that the concepts are well-defined within a broader context of material science ontologies.
 
 
-#DB4.json
+# DB4.json
 
 This JSON-LD file defines a detailed data model for a series of manufacturing and measurement processes, specifically focused on the creation of a Membrane Electrode Assembly (MEA) and related materials, using the European Materials & Modelling Ontology (EMMO). JSON-LD (JavaScript Object Notation for Linked Data) is a method of encoding linked data using JSON, which allows data to be interconnected and readable both by humans and machines.
 
@@ -227,7 +225,7 @@ This data structure clearly outlines how different materials and processes are i
 ### Conclusion:
 This JSON-LD file serves as a structured and machine-readable description of various materials, manufacturing, and measurement processes within a specific domain, likely related to fuel cell or battery technology. The use of EMMO ontology ensures that the data is semantically rich and interoperable across different systems.
 
-#DB5.json
+# DB5.json
 
 This JSON-LD (JavaScript Object Notation for Linked Data) document represents a structured description of data related to the manufacturing and simulation of catalyst layers, which are likely used in fuel cells or similar applications. The document employs the principles of Linked Data to describe various entities and their relationships using standardized vocabularies.
 
@@ -308,7 +306,7 @@ The `@graph` section contains a list of entities and their properties, represent
 This JSON-LD document is a detailed representation of materials and processes related to the manufacturing and simulation of catalyst layers in a technical domain, likely related to fuel cell technology. It uses standard vocabularies to describe the relationships between different materials, processes, and their resulting properties, enabling data interoperability and reuse in scientific and engineering contexts.
 
 
-#DB14.json
+# DB14.json
 
 This JSON-LD (JavaScript Object Notation for Linked Data) file describes a set of entities, properties, and their relationships related to a scientific or industrial process, possibly in materials science or manufacturing. Here's a detailed breakdown:
 
@@ -383,7 +381,7 @@ The `@graph` section contains a list of entities and their properties. Each enti
 This JSON-LD document is a detailed and structured representation of entities and processes related to a specific scientific or industrial domain, likely materials science or manufacturing. It leverages the EMMO ontology to define the relationships between entities, including inputs and outputs for manufacturing and measurement processes, as well as the properties and parameters involved in these processes. The document is designed to ensure data interoperability and reusability across different systems and datasets, which is crucial in scientific research and industrial applications.
 
 
-#DB16.json
+# DB16.json
 
 This JSON-LD file represents structured data describing various materials, manufacturing processes, measurements, properties, and parameters within a specific domain. It uses the [EMMO](http://emmo.info/emmo#) (European Materials & Modelling Ontology) as the vocabulary to define types and relationships. Let’s break down each part:
 
@@ -434,7 +432,7 @@ The `@graph` section contains a list of nodes that describe individual entities 
 - Each entity is connected to others through well-defined relationships, allowing for a clear and structured representation of the information. This structure enables interoperability and facilitates the integration of this data with other datasets that use the same or similar ontologies.
 
 
-#DB20.json 
+# DB20.json 
 
 This JSON-LD file represents structured data about a research article involving materials, manufacturing processes, measurements, properties, and parameters, using terms defined in the European Materials & Modelling Ontology (EMMO). The structure is designed to describe relationships between these entities, allowing for semantic interpretation.
 
